@@ -30,6 +30,10 @@ angular.module('angularPassportApp', [
         templateUrl: 'partials/blogs/view.html',
         controller: 'BlogsCtrl'
       })
+        .when('/users', {
+            templateUrl: 'partials/users.html',
+            controller: 'UsersCtrl'
+        })
       .when('/login', {
         templateUrl: 'partials/login.html',
         controller: 'LoginCtrl'

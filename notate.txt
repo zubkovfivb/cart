@@ -1,1 +1,1 @@
-mongod --dbpath d:/WEBPROJECTS/fvho/db
+mongod --dbpath D:\Projects\sportCnxt\db

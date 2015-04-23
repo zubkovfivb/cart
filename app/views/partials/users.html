@@ -1,0 +1,8 @@
+<section ng-init="find()">
+    <table>
+        <tr ng-repeat="user in users">
+            <td><b>{{$index + 1}}.</b></td>
+            <td>{{user.email}}</td>
+        </tr>
+    </table>
+</section>

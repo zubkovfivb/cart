@@ -91,31 +91,32 @@
 
 }
 
-/*.navbar {*/
-    /*position: fixed;*/
-    /*background-color: #0000ff;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*height: 100%;*/
-    /*width: 50px;*/
-    /*overflow: hidden;*/
-/*}*/
+.navbar {
+    background-color: #07abbe;
+}
 
-/*.navbar a {*/
-    /*color: white;*/
-    /*text-decoration: none;*/
-/*}*/
-/*.navbar ul {*/
-    /*color: white;*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-/*}*/
-/*.navbar li {*/
-    /*list-style: none;*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-    /*border-bottom: 1px solid;*/
-/*}*/
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar-header{
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+
+.navbar ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.navbar li {
+    background-color: #FFFFFF;
+    float: left;
+    list-style: none;
+    padding: 14px 30px;
+    margin: 0;
+    border-right : 1px solid;
+}
 
 .form-signin {
     box-shadow: 0 0 2px 1px #bfbfbf;
@@ -138,4 +139,9 @@
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.brand img{
+    width: 50px;
+    height: 50px;
 }
